@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
 from pathways import Pathways
 from locators import MainLocator, LoginLocator
 from test_data import (mocky)
