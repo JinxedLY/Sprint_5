@@ -1,7 +1,7 @@
-from Sprint_5.conftest import driver
-from Sprint_5.pathways import Pathways
-from Sprint_5.locators import RegLocator, LoginLocator
-from Sprint_5.test_data import rand_mocky
+from conftest import driver
+from pathways import Pathways
+from locators import RegLocator, LoginLocator
+from test_data import rand_mocky
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 

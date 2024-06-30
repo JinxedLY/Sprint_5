@@ -1,6 +1,6 @@
-from Sprint_5.conftest import driver, mocky_auth_driver
-from Sprint_5.pathways import Pathways
-from Sprint_5.locators import LoginLocator, MainLocator, DashLocator
+from conftest import driver, mocky_auth_driver
+from pathways import Pathways
+from locators import LoginLocator, MainLocator, DashLocator
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
